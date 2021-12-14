@@ -9,7 +9,7 @@ const PaginationComp = ({postsPerPage, totalPosts, paginate}) => {
     }
 
     return (
-        <ul className='pagination' style={{marginLeft:'35%'}}>
+        <ul className='pagination' style={{marginLeft:'40.5%'}}>
             {pageNumbers?.map(pageNumber => {
                 return <li key={pageNumber} className='page-item'>
                     <a onClick={()=> paginate(pageNumber)} className='page-link'>{pageNumber}</a>

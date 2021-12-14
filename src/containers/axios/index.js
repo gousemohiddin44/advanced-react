@@ -28,7 +28,7 @@ const AxiosCource = () => {
 
     return (
         <div>
-            <h1>Axios learning</h1>
+            <h1>Axios learning (ctrl+shift+i) </h1>
             <button onClick={getPostsFunc}>Click</button>
         </div>
     )
